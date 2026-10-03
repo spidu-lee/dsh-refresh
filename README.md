@@ -30,6 +30,14 @@ window.addEventListener("keydown", (ev) => {
 
 ## Install
 
+From npm (recommended):
+
+```
+dsh plugin add dsh-refresh
+```
+
+Or from GitHub:
+
 ```
 dsh plugin add spidu-lee/dsh-refresh
 ```

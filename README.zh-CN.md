@@ -28,6 +28,14 @@ window.addEventListener("keydown", (ev) => {
 
 ## 安装
 
+从 npm 安装（推荐）：
+
+```
+dsh plugin add dsh-refresh
+```
+
+或从 GitHub 安装：
+
 ```
 dsh plugin add spidu-lee/dsh-refresh
 ```

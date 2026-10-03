@@ -1,6 +1,6 @@
 {
   "name": "dsh-refresh",
-  "description": "Make F5 and Ctrl+F5 reliably reload the DeepSeek Harness page.",
+  "description": "Make F5, Ctrl+F5, and Ctrl+R reliably reload the DeepSeek Harness page.",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
@@ -29,5 +29,5 @@
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./package.json": "./package.json"
   },
-  "files": ["index.js", "client", "cordis.patch.yml"]
+  "files": ["index.js", "client", "cordis.patch.yml", "README.md", "README.zh-CN.md", "LICENSE"]
 }

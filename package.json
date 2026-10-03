@@ -1,6 +1,6 @@
 {
   "name": "dsh-refresh",
-  "description": "Make F5, Ctrl+F5, and Ctrl+R reliably reload the DeepSeek Harness page.",
+  "description": "Make F5, Ctrl+F5, and Ctrl+Shift+R reliably reload the DeepSeek Harness page.",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-refresh",
+    "description": "Make F5, Ctrl+F5, and Ctrl+Shift+R reliably reload the DeepSeek Harness page."
+  }
+}

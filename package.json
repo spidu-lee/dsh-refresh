@@ -35,11 +35,13 @@
     ".": "./index.js",
     "./client": "./client/client.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
   },
   "files": [
     "index.js",
     "client",
+    "locale",
     "cordis.patch.yml",
     "README.md",
     "README.zh-CN.md",

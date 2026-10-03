@@ -1,5 +1,7 @@
 # dsh-refresh
 
+[简体中文](README.zh-CN.md) | English
+
 Make **F5** and **Ctrl+F5** reliably reload the DeepSeek Harness page.
 
 DeepSeek Harness has no refresh button, and F5 alone doesn't reload the page

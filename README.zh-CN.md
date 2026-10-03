@@ -1,5 +1,7 @@
 # dsh-refresh
 
+[English](README.md) | 简体中文
+
 让 **F5** 和 **Ctrl+F5** 都能可靠地刷新 DeepSeek Harness 页面。
 
 DeepSeek Harness 没有刷新按钮，单独按 F5 也不会刷新页面（浏览器内置的刷新

@@ -1,0 +1,33 @@
+{
+  "name": "dsh-refresh",
+  "description": "Make F5 and Ctrl+F5 reliably reload the DeepSeek Harness page.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spidu-lee/dsh-refresh.git"
+  },
+  "homepage": "https://github.com/spidu-lee/dsh-refresh",
+  "bugs": {
+    "url": "https://github.com/spidu-lee/dsh-refresh/issues"
+  },
+  "keywords": ["deepseek", "harness", "dsh", "dsh-plugin", "refresh", "reload", "f5"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "client", "cordis.patch.yml"]
+}
